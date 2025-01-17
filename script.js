@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', function () {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
-    // Animação para "Sobre mim"
+    
     const sobre = document.getElementById('sobre');
     sobre.classList.add('fadeIn');
 
-    // Função para navegação suave para as seções
+    
     const links = document.querySelectorAll('nav a');
     links.forEach(link => {
         link.addEventListener('click', function (e) {
@@ -22,13 +22,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// Animação suave para o texto de introdução
+
 document.addEventListener('DOMContentLoaded', function () {
     const sobre = document.getElementById('sobre');
     sobre.classList.add('fadeIn');
 });
 
-// Animação CSS
+
 document.addEventListener('DOMContentLoaded', function () {
     const sobre = document.getElementById('sobre');
     sobre.classList.add('fadeIn');
