@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="contact-style.css">
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Detalhes de como entrar em contato com você...</p>
+</section>
+
+
+<p><h1>Envie a sua proposta</h1></p>
+
+<form action="/registrar" method="post">
+    <label for="nome">Nome: </label>
+    <input type="text" id="nome" name="nome" placeholder="Escreva o seu nome" required>
+
+    <label for="email">Email: </label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="serviço">Serviço: </label>
+    <select id="serviço" name="serviço">
+        <option value="Front-End">Front-End</option>
+        <option value="Back-End">Back-End</option>
+    </select>
+
+    <label for="língua"> Língua: </label>
+    <select id="língua" name="língua">
+        <option value="Português">Português</option>
+        <option value="Inglês">Inglês</option>
+    </select>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+
+    <button type="enviar">Enviar</button>
+</form>
+
+
+<img src="https://www.pngplay.com/wp-content/uploads/13/Programmer-PNG-Free-File-Download.png" alt="imagem programmer">

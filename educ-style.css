@@ -1,0 +1,16 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: black;
+     color: white;
+ }
+
+.imagem-etic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px;
+    max-width: 300px; 
+}
+
+.etic-imagem {
+    
+}

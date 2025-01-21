@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     sobre.classList.add('fadeIn');
 
     
-    const links = document.querySelectorAll('nav a');
+    const links = document.querySelectorAll('.scroll-link');
     links.forEach(link => {
         link.addEventListener('click', function (e) {
             e.preventDefault();
