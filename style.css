@@ -53,12 +53,12 @@ nav ul li a:hover {
     
 }
 
-
-
 .home {
     display: flex;
     align-items: center;
 }
+
+
 
 .imagem-esquerda {
     width: 50px;
@@ -204,3 +204,4 @@ footer {
         gap: 10px;
     }
 }
+

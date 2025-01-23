@@ -6,8 +6,8 @@ async function loadNavbar() {
   
   async function loadFooter() {
     const response = await fetch("components/footer.html");
-    const navbarHtml = await response.text();
-    document.getElementById("footer").innerHTML = navbarHtml;
+    const footerHtml = await response.text();
+    document.getElementById("footer").innerHTML = footerHtml;
   }
   
   loadFooter();
