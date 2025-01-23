@@ -3,3 +3,18 @@ body {
      background-color: black;
      color: white;
  }
+
+.card {
+    width: 400px;
+    padding: 30px;
+    background: black;
+    border: 8px solid white;
+    box-shadow: 15px 15px 0 rgb(65, 65, 65);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    justify-self: center;
+    
+    
+}
+
