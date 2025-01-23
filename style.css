@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #8b008b;
-    padding: 10px 20px;
+    padding: 10px 0px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -171,41 +171,21 @@ footer {
   }
   
   .footer-icons .icon:hover {
-    color: #a10000; 
+    color: #ff4848; 
     transform: scale(1.2); 
+    }
   
   .footer-icons .icon i {
     pointer-events: none; 
 }
 
-.menu {
-    display: flex;
-    list-style: none;
-  }
-  
-  .menu-toggle {
-    display: none; 
-    font-size: 2rem;
-    cursor: pointer;
-}
+
   
  
+@media (max-width: 1440px) {
+
+}
+
 @media (max-width: 768px) {
-    .menu {
-      display: none; 
-      flex-direction: column;
-      background-color: #333;
-      position: absolute;
-      top: 50px;
-      left: 0;
-      right: 0;
-    }
-  
-    .menu.show {
-      display: flex; 
-    }
-  
-    .menu-toggle {
-      display: block;
-    }
+
 }

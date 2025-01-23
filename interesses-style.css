@@ -4,16 +4,16 @@ body {
      color: white;
  }
 
-/* Seção Interesses */
+
 #interesses {
-    background-color: #000; /* Fundo preto */
-    color: #fff; /* Texto branco */
+    background-color: #000; 
+    color: #fff; 
     padding: 50px 20px;
     text-align: center;
   }
   
   #interesses h2 {
-    font-family: 'Anton', sans-serif; /* Fonte do título */
+    font-family: 'Anton', sans-serif; 
     font-size: 2.5rem;
     margin-bottom: 30px;
   }
