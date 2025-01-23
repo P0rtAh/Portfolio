@@ -180,28 +180,9 @@ footer {
     pointer-events: none; 
 }
 
-
-
-@media (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
-    nav ul {
-        flex-direction: column;
+@media screen and (min-width: 780px) {
+    .full-width-img {
+    margin: auto;
+    width: 90%;
     }
 }
-
-@media (max-width: 480px) {
-    body {
-        font-size: 14px;
-    }
-    header, footer {
-        padding: 10px;
-        text-align: center;
-    }
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-
