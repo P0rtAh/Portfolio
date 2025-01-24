@@ -18,3 +18,18 @@ body {
     
 }
 
+@media (max-width: 480px) {
+    .card {
+        padding: 20px; 
+        box-shadow: 10px 10px 0 rgb(65, 65, 65); 
+        border: 5px solid white; 
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 25px; 
+        box-shadow: 12px 12px 0 rgb(65, 65, 65); 
+    }
+}
+
